@@ -22,7 +22,7 @@ client = OpenAI(
     api_key=os.environ['ANYSCALE_API_KEY']
 )
 
-embedding_model = SentenceTransformerEmbeddings(model_name='thenlper/gte-small')
+embedding_model = SentenceTransformerEmbeddings(model_name='thenlper/gte-large')
 
 tesla_10k_collection = 'tesla-10k-2019-to-2023'
 

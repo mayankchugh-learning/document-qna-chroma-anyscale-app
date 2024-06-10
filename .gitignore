@@ -163,3 +163,4 @@ cython_debug/
 teslareportvenv
 flagged
 logs
+.DS_Store
